@@ -25,7 +25,7 @@ namespace DieRoller
         /// </summary>
         public byte Roll()
         {
-            // Generate a random number.
+            // Generate another random number.
             Random rand = new Random();
             byte newValue = (byte)rand.Next(1, 7);
             
